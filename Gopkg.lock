@@ -532,6 +532,32 @@
   version = "v2.0.0"
 
 [[projects]]
+  branch = "master"
+  digest = "1:0a55af2ca3263f063c3832a8b48baed1d3e25ef403cfc1247705cddbed337003"
+  name = "github.com/gophercloud/gophercloud"
+  packages = [
+    ".",
+    "internal",
+    "openstack",
+    "openstack/blockstorage/extensions/schedulerstats",
+    "openstack/blockstorage/extensions/volumetenants",
+    "openstack/blockstorage/v2/volumes",
+    "openstack/compute/v2/extensions/hypervisors",
+    "openstack/compute/v2/flavors",
+    "openstack/compute/v2/images",
+    "openstack/compute/v2/servers",
+    "openstack/identity/v2/tenants",
+    "openstack/identity/v2/tokens",
+    "openstack/identity/v3/projects",
+    "openstack/identity/v3/services",
+    "openstack/identity/v3/tokens",
+    "openstack/utils",
+    "pagination",
+  ]
+  pruneopts = ""
+  revision = "e340f5f89555fed5511a8b8bbf454f0eaff74de7"
+
+[[projects]]
   digest = "1:dbbeb8ddb0be949954c8157ee8439c2adfd8dc1c9510eb44a6e58cb68c3dce28"
   name = "github.com/gorilla/context"
   packages = ["."]
@@ -1520,6 +1546,16 @@
     "github.com/golang/protobuf/ptypes/empty",
     "github.com/golang/protobuf/ptypes/timestamp",
     "github.com/google/go-cmp/cmp",
+    "github.com/gophercloud/gophercloud",
+    "github.com/gophercloud/gophercloud/openstack",
+    "github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/schedulerstats",
+    "github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/volumetenants",
+    "github.com/gophercloud/gophercloud/openstack/blockstorage/v2/volumes",
+    "github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/hypervisors",
+    "github.com/gophercloud/gophercloud/openstack/compute/v2/flavors",
+    "github.com/gophercloud/gophercloud/openstack/compute/v2/servers",
+    "github.com/gophercloud/gophercloud/openstack/identity/v3/projects",
+    "github.com/gophercloud/gophercloud/openstack/identity/v3/services",
     "github.com/gorilla/mux",
     "github.com/hashicorp/consul/api",
     "github.com/influxdata/go-syslog",
