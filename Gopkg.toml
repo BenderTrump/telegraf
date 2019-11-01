@@ -273,6 +273,10 @@
 [[constraint]]
   name = "github.com/go-logfmt/logfmt"
   version = "0.4.0"
+  
+[[constraint]]
+  branch = "master"
+  name = "github.com/gophercloud/gophercloud"
 
 [[constraint]]
   branch = "master"

@@ -246,6 +246,7 @@ For documentation on the latest development code see the [documentation index][d
 * [openldap](./plugins/inputs/openldap)
 * [openntpd](./plugins/inputs/openntpd)
 * [opensmtpd](./plugins/inputs/opensmtpd)
+* [openstack](./plugins/inputs/openstack)
 * [openweathermap](./plugins/inputs/openweathermap)
 * [pf](./plugins/inputs/pf)
 * [pgbouncer](./plugins/inputs/pgbouncer)
